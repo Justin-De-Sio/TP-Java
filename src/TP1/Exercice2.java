@@ -10,10 +10,10 @@ public class Exercice2 {
         ArrayList<Integer> notes = new ArrayList<>();
 
         boolean run = true;
+        Scanner sc = new Scanner(System.in);
 
         do {
             System.out.println("Saisir une note entre 0 et 20 (<0 pour sortir)");
-            Scanner sc = new Scanner(System.in);
             int choix = sc.nextInt();
 
             if (choix < 0 || choix > 20) {
@@ -23,12 +23,12 @@ public class Exercice2 {
                 notes.add(choix);
             }
         } while (run);
-
+        sc.close();
         System.out.println("Toutes les valeurs" + notes);
 
         int[] count = new int[21];
-        for (int i = 0; i < notes.size(); i++) {
-            count[notes.get(i)]++;
+        for (Integer note : notes) {
+            count[note]++;
         }
         for (int i = 0; i < count.length; i++) {
             if (count[i] > 0) {
