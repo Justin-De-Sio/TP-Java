@@ -17,6 +17,10 @@ public class Main {
                 Exercice2 exercice2 = new Exercice2();
                 exercice2.run();
                 break;
+            case 3:
+                System.out.println("exercice 3:");
+                Exercice3 exercice3 = new Exercice3();
+                exercice3.tirage();
         }
     }
 }

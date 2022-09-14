@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1840ac0-a5e8-46a7-ab0f-2976116ccf9a" name="Changes" comment="TP2 exo 1,2,3">
+    <list default="true" id="c1840ac0-a5e8-46a7-ab0f-2976116ccf9a" name="Changes" comment="sc has been closed">
+      <change afterPath="$PROJECT_DIR$/src/TP1/Exercice3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TP1/Exercice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP1/Exercice2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP/TP1/Exercice2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP/TP1/Exercice2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP/TP1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP/TP1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TP1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +94,7 @@
       <workItem from="1663067200983" duration="5347000" />
       <workItem from="1663075862030" duration="1183000" />
       <workItem from="1663085149458" duration="8200000" />
-      <workItem from="1663144963855" duration="1399000" />
+      <workItem from="1663144963855" duration="6970000" />
     </task>
     <task id="LOCAL-00001" summary="fist commit">
       <created>1662567622136</created>
@@ -107,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663093413584</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="enchanced for">
+      <created>1663146590666</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663146590666</updated>
+    </task>
+    <task id="LOCAL-00004" summary="sc has been closed">
+      <created>1663146723081</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663146723081</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +145,9 @@
     <MESSAGE value="Exo2" />
     <MESSAGE value="fist commit" />
     <MESSAGE value="TP2 exo 1,2,3" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP2 exo 1,2,3" />
+    <MESSAGE value="enchanced for" />
+    <MESSAGE value="sc has been closed" />
+    <option name="LAST_COMMIT_MESSAGE" value="sc has been closed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
