@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1840ac0-a5e8-46a7-ab0f-2976116ccf9a" name="Changes" comment="sc has been closed">
-      <change afterPath="$PROJECT_DIR$/src/TP1/Exercice3.java" afterDir="false" />
+    <list default="true" id="c1840ac0-a5e8-46a7-ab0f-2976116ccf9a" name="Changes" comment="début de exo3 tp 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP/TP1/Exercice2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP/TP1/Exercice2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP/TP1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP/TP1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TP1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TP1/Exercice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP1/Exercice3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +43,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TP2.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\OpenJDK\jdk-8.0.342.07-hotspot\jre" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -94,7 +91,8 @@
       <workItem from="1663067200983" duration="5347000" />
       <workItem from="1663075862030" duration="1183000" />
       <workItem from="1663085149458" duration="8200000" />
-      <workItem from="1663144963855" duration="6970000" />
+      <workItem from="1663144963855" duration="7400000" />
+      <workItem from="1663244520482" duration="3934000" />
     </task>
     <task id="LOCAL-00001" summary="fist commit">
       <created>1662567622136</created>
@@ -124,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663146723081</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="début de exo3 tp 1">
+      <created>1663152188129</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663152188129</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +152,8 @@
     <MESSAGE value="TP2 exo 1,2,3" />
     <MESSAGE value="enchanced for" />
     <MESSAGE value="sc has been closed" />
-    <option name="LAST_COMMIT_MESSAGE" value="sc has been closed" />
+    <MESSAGE value="début de exo3 tp 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="début de exo3 tp 1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
