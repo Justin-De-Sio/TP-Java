@@ -21,6 +21,16 @@ public class Main {
                 System.out.println("exercice 3:");
                 Exercice3 exercice3 = new Exercice3();
                 exercice3.tirage();
+                break;
+            case 4:
+                System.out.println("exercice 4:");
+                Exercice4 exercice4 = new Exercice4();
+                exercice4.afficherListe();
+                break;
+            default:
+                System.out.println("exercice non trouvé");
+                break;
+
         }
     }
 }
