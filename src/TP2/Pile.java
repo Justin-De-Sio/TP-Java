@@ -1,12 +1,14 @@
 package TP2;
 
+import java.util.ArrayList;
+
 public class Pile {
 
     Liste maListe;
     String PileName;
 
-    public Pile(Liste maListe, String PileName) {
-        this.maListe = maListe;
+    public Pile( String PileName) {
+        this.maListe = new Liste(new ArrayList<Object>());
         this.PileName = PileName;
 
     }
