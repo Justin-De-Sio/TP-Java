@@ -26,7 +26,7 @@ public class Exercice3 {
 
     }
 
-    //TODO exo 3,4,6,7
+
     public boolean exist(int[] list, int number) {
         for (int element : list) {
             if (element == number)

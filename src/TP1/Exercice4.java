@@ -1,6 +1,5 @@
 package TP1;
 
-import java.util.ArrayList;
 import java.util.Random;
 
 public class Exercice4 {
@@ -37,22 +36,12 @@ public class Exercice4 {
 
     public String afficherEtoile(int number) {
         StringBuilder etoile = new StringBuilder();
-        for (int j = 0; j < tab.length; j++) {
-            if (number == tab[j]) {
+        for (int element : tab) {
+            if (number == element) {
                 etoile.append("*");
             }
         }
         return etoile.toString();
-    }
-
-    public int getOccurrences(int[] tab, int nombre) {
-        int count = 0;
-        for (int i = 0; i < tab.length; i++) {
-            if (tab[i] == nombre) {
-                count++;
-            }
-        }
-        return count;
     }
 
 
