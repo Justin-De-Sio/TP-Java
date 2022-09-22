@@ -27,6 +27,15 @@ public class Main {
                 Exercice4 exercice4 = new Exercice4();
                 exercice4.afficherListe();
                 break;
+            case 5:
+                System.out.println("exercice 5:");
+                Exercice5 exercice5 = new Exercice5();
+                exercice5.afficherListe();
+                break;
+            case 6:
+                System.out.println("exercice 6:");
+                Exerice6 exerice6 = new Exerice6();
+                break;
             default:
                 System.out.println("exercice non trouvé");
                 break;
