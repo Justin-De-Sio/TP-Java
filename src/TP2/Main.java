@@ -14,7 +14,5 @@ public class Main {
                 P3.empiler(element);
             }
         }
-
-
     }
 }

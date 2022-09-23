@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1840ac0-a5e8-46a7-ab0f-2976116ccf9a" name="Changes" comment="StringBuilder">
+    <list default="true" id="c1840ac0-a5e8-46a7-ab0f-2976116ccf9a" name="Changes" comment="protected">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TP2/Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP2/Liste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TP2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TP2/Pile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP2/Pile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TP2/PileEntiers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP2/PileEntiers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +102,7 @@
       <workItem from="1663871289303" duration="7076000" />
       <workItem from="1663878457411" duration="1300000" />
       <workItem from="1663914522101" duration="7861000" />
-      <workItem from="1663922685771" duration="1918000" />
+      <workItem from="1663922685771" duration="5423000" />
     </task>
     <task id="LOCAL-00001" summary="fist commit">
       <created>1662567622136</created>
@@ -193,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663923599009</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="pas d'exception">
+      <created>1663924632236</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663924632236</updated>
+    </task>
+    <task id="LOCAL-00015" summary="protected">
+      <created>1663925445857</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1663925445857</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +241,9 @@
     <MESSAGE value="changement" />
     <MESSAGE value="exception" />
     <MESSAGE value="StringBuilder" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringBuilder" />
+    <MESSAGE value="pas d'exception" />
+    <MESSAGE value="protected" />
+    <option name="LAST_COMMIT_MESSAGE" value="protected" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

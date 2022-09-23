@@ -16,13 +16,13 @@ public class Pile {
     public void empiler(Object element) {
         maListe.dernier();
         maListe.ajouter(element);
-        System.out.println("Empiler " + element + " dans la pile " + this.PileName);
+        System.out.println("Empiler " + element + " dans " + this.PileName);
     }
 
     public Object depiler() {
         maListe.dernier();
         Object element = maListe.supprimer();
-        System.out.println("Depiler " + element + " dans la pile " + this.PileName);
+        System.out.println("Depiler " + element + " dans " + this.PileName);
         return element;
 
     }

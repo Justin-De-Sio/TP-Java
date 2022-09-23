@@ -3,17 +3,18 @@ package TP2;
 import java.util.ArrayList;
 
 public class Liste {
-    ArrayList<Object> listes;
-    int position;
+
+    private ArrayList<Object> liste;
+    private int position;
 
     public Liste() {
-        this.listes = new ArrayList<>();
+        this.liste = new ArrayList<>();
         this.position = 0;
     }
 
 
     public void dernier() {
-        this.position = listes.size() - 1;
+        this.position = liste.size() - 1;
     }
 
     public void premier() {
@@ -21,14 +22,14 @@ public class Liste {
     }
 
     public void ajouter(Object element) {
-        listes.add(element);
+        liste.add(element);
     }
 
 
     public Object supprimer() {
-        if (!listes.isEmpty()) {
-            Object element = listes.get(this.position);
-            listes.remove(this.position);
+        if (!liste.isEmpty()) {
+            Object element = liste.get(this.position);
+            liste.remove(this.position);
             return element;
         }else{
             System.out.println("La liste est vide");
@@ -39,8 +40,8 @@ public class Liste {
     }
 
     public Object suivant() {
-        if(this.position < listes.size() - 1){
-            Object element = listes.get(this.position);
+        if(this.position < liste.size() - 1){
+            Object element = liste.get(this.position);
             this.position++;
             return element;
         } else {

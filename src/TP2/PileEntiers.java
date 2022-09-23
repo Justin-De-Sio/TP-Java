@@ -6,10 +6,13 @@ public class PileEntiers extends Pile {
         super(PileName);
     }
 
+
     public void empiler(Integer element) {
         super.empiler(element);
     }
 
+
+    @Override
     public Integer depiler() {
         return (Integer) super.depiler();
     }
