@@ -10,22 +10,22 @@ public class Exercice6 {
         String lettersMaj = letters.toUpperCase();
         String special = "!@#$%^&*_+";
         String all = numbers + letters + lettersMaj + special;
-        String password = "";
+        StringBuilder password = new StringBuilder();
 
         int PasswordSize = askSize();
         // avoir un mot de passe avec au moins une lettre minuscule, une lettre majuscule, un chiffre et un caractère spécial
-        password += numbers.charAt((int) (Math.random() * numbers.length()));
-        password += letters.charAt((int) (Math.random() * letters.length()));
-        password += lettersMaj.charAt((int) (Math.random() * lettersMaj.length()));
-        password += special.charAt((int) (Math.random() * special.length()));
+        password.append(numbers.charAt((int) (Math.random() * numbers.length())));
+        password.append(letters.charAt((int) (Math.random() * letters.length())));
+        password.append(lettersMaj.charAt((int) (Math.random() * lettersMaj.length())));
+        password.append(special.charAt((int) (Math.random() * special.length())));
 
         // remplir le reste avec des caractères aléatoires
         for (int i = 0; i < PasswordSize - 4; i++) {
-            password += all.charAt((int) (Math.random() * all.length()));
+            password.append(all.charAt((int) (Math.random() * all.length())));
         }
 
         // mélanger les caractères
-        password = shuffle(password);
+        password = new StringBuilder(shuffle(password.toString()));
 
         System.out.println(password);
     }
@@ -36,13 +36,13 @@ public class Exercice6 {
     }
 
     public String shuffle(String string) {
-        String shuffled = "";
+        StringBuilder shuffled = new StringBuilder();
         while (string.length() > 0) {
             int random = (int) (Math.random() * string.length());
-            shuffled += string.charAt(random);
+            shuffled.append(string.charAt(random));
             string = string.substring(0, random) + string.substring(random + 1);
         }
-        return shuffled;
+        return shuffled.toString();
     }
 
     public int askSize() {
