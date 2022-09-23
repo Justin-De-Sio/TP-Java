@@ -8,7 +8,7 @@ public class Pile {
     String PileName;
 
     public Pile( String PileName) {
-        this.maListe = new Liste(new ArrayList<Object>());
+        this.maListe = new Liste();
         this.PileName = PileName;
 
     }

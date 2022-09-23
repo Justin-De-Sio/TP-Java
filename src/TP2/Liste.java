@@ -6,8 +6,8 @@ public class Liste {
     ArrayList<Object> listes;
     int position;
 
-    public Liste(ArrayList<Object> listes) {
-        this.listes = listes;
+    public Liste() {
+        this.listes = new ArrayList<>();
         this.position = 0;
     }
 

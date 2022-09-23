@@ -1,6 +1,5 @@
 package TP1;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -34,7 +33,7 @@ public class Main {
                 break;
             case 6:
                 System.out.println("exercice 6:");
-                Exerice6 exerice6 = new Exerice6();
+                Exercice6 exercice6 = new Exercice6();
                 break;
             default:
                 System.out.println("exercice non trouvé");

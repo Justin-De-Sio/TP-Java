@@ -2,8 +2,8 @@ package TP1;
 
 import java.util.Scanner;
 
-public class Exerice6 {
-    Exerice6() {
+public class Exercice6 {
+    Exercice6() {
 
         String numbers = "0123456789";
         String letters = "abcdefghijklmnopqrstuvwxyz";
