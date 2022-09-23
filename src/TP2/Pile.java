@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Pile {
 
-    Liste maListe;
-    String PileName;
+    protected Liste maListe;
+    protected String PileName;
 
     public Pile( String PileName) {
         this.maListe = new Liste();
