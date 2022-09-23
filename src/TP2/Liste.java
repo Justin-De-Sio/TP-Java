@@ -26,14 +26,25 @@ public class Liste {
 
 
     public Object supprimer() {
-        Object element = listes.get(position);
-        listes.remove(position);
-        return element;
+        try  {
+            Object element = listes.get(this.position);
+            listes.remove(this.position);
+            return element;
+        } catch (Exception e) {
+            System.out.println("Erreur : " + e.getMessage());
+            return null;
+        }
+
     }
 
     public Object suivant() {
-        Object element = listes.get(position);
-        position++;
-        return element;
+        try {
+            Object element = listes.get(this.position);
+            this.position++;
+            return element;
+        } catch (Exception e) {
+            System.out.println("Erreur : " + e.getMessage());
+            return null;
+        }
     }
 }
