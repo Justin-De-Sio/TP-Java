@@ -14,12 +14,7 @@ public class Main {
                 P3.empiler(element);
             }
         }
-        P2.maListe.supprimer();
-        P2.maListe.supprimer();
-        P2.maListe.supprimer();
-        P2.maListe.supprimer();
-        P2.maListe.supprimer();
-        P2.maListe.supprimer();
-        P2.maListe.supprimer();
+
+
     }
 }

@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1840ac0-a5e8-46a7-ab0f-2976116ccf9a" name="Changes" comment="changement">
+    <list default="true" id="c1840ac0-a5e8-46a7-ab0f-2976116ccf9a" name="Changes" comment="StringBuilder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TP/TP1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP/TP1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TP1/Exercice4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP1/Exercice4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TP2/Liste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP2/Liste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TP2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TP2/PileEntiers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TP2/PileEntiers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <workItem from="1663871289303" duration="7076000" />
       <workItem from="1663878457411" duration="1300000" />
       <workItem from="1663914522101" duration="7861000" />
-      <workItem from="1663922685771" duration="676000" />
+      <workItem from="1663922685771" duration="1918000" />
     </task>
     <task id="LOCAL-00001" summary="fist commit">
       <created>1662567622136</created>
@@ -182,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663915753159</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="exception">
+      <created>1663923395881</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663923395881</updated>
+    </task>
+    <task id="LOCAL-00013" summary="StringBuilder">
+      <created>1663923599009</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663923599009</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,18 +223,9 @@
     <MESSAGE value="exo 5 et 6 tp1" />
     <MESSAGE value="la liste est initialiser  directement par le constructeur" />
     <MESSAGE value="changement" />
-    <option name="LAST_COMMIT_MESSAGE" value="changement" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/TP2/PileEntiers.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="exception" />
+    <MESSAGE value="StringBuilder" />
+    <option name="LAST_COMMIT_MESSAGE" value="StringBuilder" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

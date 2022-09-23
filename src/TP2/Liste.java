@@ -26,24 +26,25 @@ public class Liste {
 
 
     public Object supprimer() {
-        try  {
+        if (!listes.isEmpty()) {
             Object element = listes.get(this.position);
             listes.remove(this.position);
             return element;
-        } catch (Exception e) {
-            System.out.println("Erreur : " + e.getMessage());
+        }else{
+            System.out.println("La liste est vide");
             return null;
         }
+
 
     }
 
     public Object suivant() {
-        try {
+        if(this.position < listes.size() - 1){
             Object element = listes.get(this.position);
             this.position++;
             return element;
-        } catch (Exception e) {
-            System.out.println("Erreur : " + e.getMessage());
+        } else {
+            System.out.println("Vous etes a la fin de la liste");
             return null;
         }
     }
